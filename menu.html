@@ -1,0 +1,235 @@
+<!-- Joshua Crane
+Restaurant 3 Assignent 
+Menu Page
+09/09/18 -->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>RT Menu</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+    <style><!-- Local Css -->
+		body{
+			background-color:#C0C0C0;
+			}
+		table, th, td {
+			border: 1px solid #0d1f2d
+			border-collapse: collapse;
+			padding: 5px 10px;
+			}
+		table {
+			width: 90%;
+			margin: auto;
+			
+			}
+		tr {text-align: center;
+			height: 30px;
+			}
+			th {
+			background-color: #546a7b; 
+			color: #f2eded;
+			}
+			tr:nth-child(odd) {
+			background-color: #ffffff; 
+			}
+		 .lft{
+		 text-align: left;
+		 }
+		nav {
+	margin-top: 4px;
+	}
+	header, footer {
+		background-color: #000000;
+		font-family: arial, helvetica, sans-serif;
+	}
+	footer{
+		background-color: #000000;
+    color: #ffffff;
+    height: auto;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+	}
+	nav a {
+		background-color: #000000;
+		color: #fef9ff;
+		padding: 8px;
+		border: thin solid #0d1f2d;
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		margin: 20px;
+		width: 100px;
+		float: left;
+	}
+	.clear-float {
+		clear: both;
+	}
+	article img {
+		float:left;
+	}
+	.right-content {
+		align:center;
+	}
+	article {
+		margin-bottom: 16px;
+	}
+	nav a:hover {
+		background-color: #fef9ff;
+		color: #000000; 
+		font-weight: bold;
+	}
+	nav a:active {
+		text-decoration: underline;
+	}
+	nav a:visited {
+		color: #808080; 
+	}
+	.table-responsive{-sm|-md|-lg|-xl{-sm|-md}
+		
+    </style>
+	<noscript>JavaScript is off. Please enable to view full site.</noscript><!-- Gives message for when java script is disabled -->
+</head>
+<body>
+<main>
+<Header>
+<div class="jumbotron jumbotron-fluid;" style="background-color: #000000;"><!-- Header Jumbotron -->
+  <div class="container">
+	<p class="lead" style="color: #ffffff;">Menu</p>
+    <h1 class="display-4" style="color: #ffffff;"><center>Rotten Tomatoes<center></h1><!-- Restaurant Name -->
+  </div>
+</div>
+</Header>
+<nav> <!-- Links -->
+    <div class="container">
+  <div class="row">
+    <div class="col-sm-auto">
+      <p><a class="btn badge-tab;" href="index.html"><i class="fas fa-landmark" alt="home"> Home</i></a></p>
+    </div>
+    <div class="col-sm-auto">
+      <p><a class="btn badge-tab;" href="menu.html">Menu</a></p>
+    </div>
+    <div class="col-sm-auto">
+      <p><a class="btn badge-tab;" href="contact.html">Contact</a></p>
+    </div>
+  </div>
+</div>
+</nav>
+<hr/>
+<section><!-- Food Menu -->
+	<article id="past-exp">
+	<div class="row" style="text-align:center; background-color: #ffffff" >
+		<div class="col-lg-4">
+        <p><span style="font-size: 14pt; font-weight: bold">Burger and Fries</span><br>
+			An American Classic!<br>Your choice-whith or 
+			without cheese<br> Pickle, onion,tomato, and letuce<br>
+			served with our famous thick cut<br> french fries<br>
+			$7.95</p>
+		</div>
+    
+		<div class="col-lg-4">
+        <p><span style="font-size: 14pt; font-weight: bold">Hot Dog and Chips</span><br>
+			A Summer Classic!<br>
+			Your choice-white or wheat bun<br>
+			Relish, mustard, and ketchup<br>
+			Served wth our house-made chips<br>
+			$7.95</p>
+		</div>
+		<div class="col-lg-4">
+        <p><span style="font-size: 14pt; font-weight: bold">Italian Sausage and Peppers</span><br>
+			An All-Time Favorite!<br>
+			Your choice-mild or spicy Cole Slaw<br>
+			Served with garlic mashers<br>
+			$10.95</p>
+		</div>
+	</div>
+	<div class="row" style="text-align:center;">
+		<div class="col-lg-4">
+        <p><span style="font-size: 14pt; font-weight: bold">Tenderloin Sandwich and Chips</span><br>
+			Really Hits the Spot!<br>
+			Your choice-with or without cheese<br>
+			Pickle, onion, tomato, and lettuce<br>
+			Served with our famous thick cut<br>
+			french fries<br>
+			$8.95</p>
+		</div>
+    
+		<div class="col-lg-4">
+        <p><span style="font-size: 14pt; font-weight: bold">House Salad</span><br>
+			On the Lighter Side<br>
+			Your choice-with or without cheese,<br>
+			Iceberg lettuce, tomatoes, peppers<br>
+			Thousand island or Ranch<br>
+			Dressing Served with a dinner roll<br>
+			$6.95</p>
+		</div>
+		<div class="col-lg-4">
+        <p><span style="font-size: 14pt; font-weight: bold">Brisket Sandwich and Fries</span><br>
+			A Taste of Texas!<br>
+			Smoked Brisket on thick-cut<br>
+			Texas Toast<br>
+			Cole Slaw <br>
+			Served with our famous thick-cut<br>
+			french fries<br>
+			$7.95</p>
+		</div>
+	</div>
+	
+            
+			
+        
+			
+			
+        
+	
+    <div class="clear-float"></div>
+	</article>
+</section>
+<section>
+	<article id="past-exp">
+	<div class="right-content">
+    <table>		<!-- Drink Menu -->
+		<thead>
+		<tr> 
+            <th class="lft">Beverages</th>  
+			<th></th>
+        </tr> 
+		</thead>
+		<tbody>
+        <tr> 
+            <td class="lft">Root Beer</td>
+            <td>$3.00</td> 
+        </tr> 
+        <tr> 
+            <td class="lft">Bottled Water </td> 
+            <td>$1.25</td> 
+        </tr>
+        <tr>
+            <td class="lft">Lemonade</td>
+            <td>$1.00</td>
+        </tr>
+		<tr>
+            <td class="lft">Iced Tea</td>
+            <td>$1.25</td>
+        </tr>
+		</tbody>
+	</table>
+	</div>
+    <div class="clear-float"></div>
+	</article>
+</section>
+
+    
+	<footer><!-- footer/ restaurant address-->
+	<hr />
+	<p style="color: #ffffff;">Main Street, St. Charles, IL., 00646</p>
+	<p style="color: #ffffff;">847-098-4486</p>
+	</footer>
+</main>
+<!-- Bootstrap Java Script-->
+<!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

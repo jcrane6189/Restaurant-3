@@ -1,0 +1,57 @@
+/*Creator: Joshua Crane
+Date created: 09/01/18
+Date last modified:09/03/18*/
+<style>
+
+h1{color: green;}
+
+nav {
+    
+	margin-top: 4px;
+	
+}
+/*header, footer {
+    background-color: #546a7b;
+    color: #fef9ff;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+	font-family: arial, helvetica, sans-serif;
+}*/
+footer{
+	text-align:center;
+}
+nav a {
+    background-color: #000000;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+	display: block;
+	margin: 20px;
+	width: 100px;
+	float: left;
+}
+.clear-float {
+    clear: both;
+}
+
+.right-content {
+    align:center;
+}
+article {
+    margin-bottom: 16px;
+}
+nav a:hover {
+    background-color: #fef9ff;
+    color: #000000; 
+	font-weight: bold;
+}
+nav a:active {
+    text-decoration: underline;
+}
+nav a:visited {
+    color: #808080; 
+}
+</style>
